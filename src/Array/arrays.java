@@ -8,7 +8,6 @@ public class arrays{
         int[] rolln = {3,4,6,7,8};
         String[] name = new String[5];// string is stored in heap memory
 //array of primitives
-// taking input in arrays
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[5];
         arr[0] = 1;
@@ -45,7 +44,6 @@ public class arrays{
         str[1] = "ayu";
         System.out.println(Arrays.toString(str));
 
-//mutable behaviour of arrays using function(modification)
 int[] num = {1,2,3,4,5};
         System.out.println(Arrays.toString(num));
         change(num);

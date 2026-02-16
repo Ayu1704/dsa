@@ -1,3 +1,5 @@
+package Array;
+
 import java.util.ArrayList;
 import java.util.*;
 public class multiarraylist {
@@ -14,7 +16,6 @@ public class multiarraylist {
             for(int j = 0; j<3;j++){
                 list.get(i).add(sc.nextInt());
             }
-            System.out.println();
         }
         System.out.println(list);
     }

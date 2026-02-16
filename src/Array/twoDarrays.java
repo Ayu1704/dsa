@@ -1,3 +1,5 @@
+package Array;
+
 import java.util.*;
 public class twoDarrays {
     public static void main(String[] args) {
